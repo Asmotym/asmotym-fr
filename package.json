@@ -11,7 +11,11 @@
     "build:netlify": "npm run build"
   },
   "dependencies": {
-    "vue": "^3.5.17"
+    "@netlify/neon": "^0.1.0",
+    "vue": "^3.5.17",
+    "vue-i18n": "^9.14.4",
+    "vue-router": "^4.5.1",
+    "vuetify": "^3.8.10"
   },
   "devDependencies": {
     "@netlify/functions": "4.1.6",
